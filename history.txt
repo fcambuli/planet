@@ -1,0 +1,500 @@
+   60  pwd
+   61  cd Data-Shell
+   62  cd/
+   63  cd /
+   64  cd /desktop/data-shell/data-shell
+   65  cd /desktop/data-shell
+   66  cd /bin
+   67  pwd
+   68  ls
+   69  ls -1
+   70  cd..
+   71  cd ..
+   72  cd -
+   73  cd ..
+   74  cd --help
+   75  pwd
+   76  cd dekstop
+   77  cd desktop
+   78  cd /desktop
+   79  ls
+   80  cd ~
+   81  cd desktop
+   82  cd /data-shell
+   83  cd data-shell
+   84  cd -
+   85  cd -
+   86  ls -f
+   87  ls --help
+   88  cd ~
+   89  cd /
+   90  ls
+   91  cd mingw64
+   92  ls
+   93  cd ..
+   94  cd usr
+   95  ls
+   96  cd ~
+   97  C
+   98  ls
+   99  cd desktop
+  100  ls
+  101  cd ..
+  102  cd ..
+  103  cd ..
+  104  cd ..
+  105  ls
+  106  cd c
+  107  ls
+  108  cd Users
+  109  ls
+  110  cd Babac
+  111  cd desktop
+  112  cd data-shell
+  113  cd data-shell
+  114  ls -f
+  115  mkdir thesis
+  116  ls
+  117  cd thesis
+  118  pw
+  119  pwd
+  120  nano --help
+  121  nano draft.txt
+  122  ls
+  123  ls -l
+  124  touch mybutt.text
+  125  ls
+  126  ls -l
+  127  touch draft.txt
+  128  ls -l
+  129  cd ..
+  130  mv thesis/draft.txt thesis/quotes.txt
+  131  cd thesis
+  132  cd ..
+  133  ls thesis
+  134  cd thesis
+  135  l -l
+  136  ls -l
+  137  cd ..
+  138  ls
+  139  mk betterthesis
+  140  mkdir betterthesis
+  141  mv thesis/quotes.txt betterthesis/quotes.txt
+  142  ls thesis
+  143  ls betterthesis
+  144  ls
+  145  cd betterthesis
+  146  ls
+  147  ls -l
+  148  cd ..
+  149  mv betterthesis/quotes.txt thesis/quotes.txt
+  150  ls betterthesis
+  151  ls thesis
+  152  rmdir betterthesis
+  153  ls
+  154  cp thesis/quotes.txt thesis/quotations.txt
+  155  ls thesis
+  156  ls -l
+  157  ls thesis -l
+  158  mkdir ugg
+  159  touch ugg/blug.txt
+  160  ls
+  161  ls ugg
+  162  rmdir ugg
+  163  rm ugg/blugg.txt
+  164  rm ugg/blug.txt
+  165  rmdir ugg
+  166  rmdir --help
+  167  cat thesis/quotes.txt
+  168  cat pizza
+  169  cat pizza.txt
+  170  ls
+  171  cat pizza.cfg
+  172  cat solar.pdf
+  173  ls
+  174  cd thesis
+  175  ls
+  176  cat quotes.txt
+  177  head quotes.txt
+  178  head -1 quotes.txt
+  179  cd ..
+  180  ls
+  181  cd molecules
+  182  ls
+  183  cat ethane.pdb
+  184  wc ethane.pdb
+  185  wc desktop/thesis/quotes.txt
+  186  cd..
+  187  cd ..
+  188  wc desktop/thesis/quotes.txt
+  189  wc thesis/quotes.txt
+  190  wc --help
+  191  gv --help
+  192  wc -l
+  193  wc solar.pdf
+  194  cd molecules
+  195  wc *.pdb
+  196  wc *.pdb>summary.txt
+  197  cat summary.txt
+  198  cat *.pdb>details.txt
+  199  cat --hel
+  200  cat -E summary.txt
+  201  cut --help
+  202  cut summary.txt
+  203  cut -c summary.txt
+  204  cut -c 5 summary.txt
+  205  cut -c 1 summary.txt
+  206  sort summary.txt
+  207  cat summary.txt
+  208  ls
+  209  head -1 summary.txt
+  210  sort summary.txt : head -2
+  211  sort summary.txt:head -2
+  212  cut -1 summary.txt
+  213  cut --help
+  214  sort -n summary.txt
+  215  sort --help
+  216  sort -R summary.txt
+  217  sort -R summary.txt
+  218  sort -R summary.txt
+  219  sort -d summary.txt
+  220  ls
+  221  ls -l
+  222  wc -l
+  223  wc -l *.pdb>lengths.txt
+  224  cat lengths
+  225  cat lengths.txt
+  226  head -6 lengths.txt>lengths.txt
+  227  cat lengths.txt
+  228  head -6 summary.txt
+  229  wc -l *.pdb>lengths.txt
+  230  sort -n lengths.txt>sorted-lengths.txt
+  231  cat sorted-lengths.txt
+  232  head -1 sorted-lengths.txt 
+  233  head -4 sorted-lengths.txt
+  234  head -4 sorted-lengths.txt | tail -1
+  235  head -6 lengths.txt
+  236  head -6 lengths.txt: sort
+  237  head -6 lengths.txt
+  238  head -6 lengths.txt: sort
+  239  head -6 lengths.txt| sort
+  240  ls
+  241  cat sorted-lengths.txt>>lengths.txt
+  242  cat lengths.txt
+  243  head -6 lengths.txt>lengths.txt
+  244  cat lengths.txt
+  245  cw -l *.pdb>lengths.txt
+  246  wc -l *.pdb>lengths.txt
+  247  cat lengths.txt
+  248  cut --help
+  249  cut -k 2 sorted-lengths.txt
+  250  sort -k 2 sorted-lengths.txt
+  251  ls
+  252  cat summary.txt
+  253  sort -k 2 summary.txt
+  254  sort -k 3 summary.txt
+  255  sort -k 4 summary.txt
+  256  cut --help
+  257  cut -d summary.txt
+  258  cut -d " summary.txt
+  259  cut -d "" summary.txt
+  260  cut -d  summary.txt
+  261  cd ..
+  262  ls
+  263  cd north-pacific-gyre/
+  264  ls
+  265  cd 2012-07-03/
+  266  ls
+  267  cx -l *.txt
+  268  wc -l *.txt
+  269  cat NENE01729A.txt 
+  270  wc -l *.txt\ sort -n\ head -n 5
+  271  wc -l *.txt| sort -n| head -n 5
+  272  ls *[AB].txt
+  273  ls *[32][AB].txt
+  274  ls *[32][AB].txt
+  275  ls *[32][AB].txt
+  276  ls
+  277  cat goodiff
+  278  cat goodstats
+  279  cd ..
+  280  cd ..
+  281  ls
+  282  cd creatures
+  283  ls
+  284  cat unicorn.dat
+  285  head unicorn.dat
+  286  head -2 unicorn.dat minotaur.dat basilisk.dat
+  287  head -2 unicorn.dat minotaur.dat basilisk.dat|tail -1
+  288  for blerg in basilisk.dat minotaur.dat unicorn.dat ; do  head  -2 $blerg ;  tail -1; done
+  289  for blerg in basilisk.dat minotaur.dat unicorn.dat ; do  head  -2 $blerg| tail -1
+  290  for blerg in basilisk.dat minotaur.dat unicorn.dat; do head -2 $blerg|tail -1; done
+  291  for blerg in *.dat; do head -2 $blerg|tail -1; done
+  292  for blerg in *.dat; do head -2 $blerg|tail -1; done
+  293  cd ..
+  294  ls
+  295  cd thesis
+  296  ls
+  297  cd ..
+  298  cd molecules
+  299  ls
+  300  cat lengths.txt
+  301  for shnerp in cat lengths.txt; do echo $shnerp; done
+  302  for shnerp in lengths.txt; do echo $shnerp; done
+  303  cd ..
+  304  ;s
+  305  ls
+  306  cd molecules
+  307  for x in $(cat lengths.txt); do echo $x; done
+  308  pwd
+  309  for flee in *.*; do cp $flee copies/ver2_${flee}; done
+  310  mkdir copies
+  311  for flee in *.*; do cp $flee copies/${flee}; done
+  312  ls
+  313  ls copies
+  314  rmdir --help
+  315  wpd
+  316  pwd 
+  317  history
+  318  history>unix_summary.txt
+  319  bash
+  320  nano
+  321  pwd
+  322  cd ..
+  323  cd north-pacific-gyre/
+  324  nano
+  325  ls
+  326  bash scripts 2012-07-03/NENE*.[AB].txt
+  327  bash script.sh 2012-07-03/NENE*.[AB].txt
+  328  nano script.sh
+  329  nano script.sh
+  330  nano script.sh
+  331  ls
+  332  cp script.sh 2012-07-03/script2.sh
+  333  cd 2012-07-03/
+  334  bash script2.sh
+  335  ls
+  336  nano script2.sh
+  337  bash script2.sh NENE*.[AB].txt
+  338  nano script2.sh
+  339  bash script2.sh NENE*.[AB].txt
+  340  cat script2.sh
+  341  bash script2.sh NENE*[AB].txt
+  342  ls
+  343  cat goostats
+  344  cat stats-NENE01751B.txt 
+  345  cat NENE01751B.txt 
+  346  cat goostats
+  347  call --help
+  348  git--version
+  349  git --version
+  350  git config --global user.name "babacon"
+  351  git config --global user.email "bezalel.bacon@gmail.com"
+  352  git config
+  353  git config --list
+  354  git config --global core.editor "nano -w"
+  355  git config --list
+  356  pwd
+  357  cd desktop
+  358  ls
+  359  mkdir planets
+  360  cd planets
+  361  git add
+  362  git add planets
+  363  git init
+  364  ls
+  365  ls -a
+  366  cat .git
+  367  cd .git
+  368  ls
+  369  cd ..
+  370  touch mars.txt
+  371  nano mars.txt
+  372  cat mars.txt
+  373  git status
+  374  git add mars.txt
+  375  git status
+  376  git commit mars.txt
+  377  git commit -m
+  378  git commit -m "This is my first change to this file. Obviously a way better version now"
+  379  git status
+  380  nano mars.txt
+  381  git status
+  382  git commit -m "added new info"
+  383  git add
+  384  git add mars.txt
+  385  git add help
+  386  git add --help
+  387  git status
+  388  git commit -m "added new info"
+  389  git log
+  390  nano mars.txt
+  391  git diff mars.txt
+  392  nano venus.txt
+  393  ls
+  394  git status
+  395  touch jupiter.csv
+  396  git add --all --no .csv
+  397  git add --A --no .csv
+  398  git add --A -no .csv
+  399  rm jupiter.csv
+  400  git add all
+  401  git add -a
+  402  git add -A
+  403  git status
+  404  git commmit
+  405  git commit -A
+  406  git commit -a
+  407  git status
+  408  git log
+  409  ls
+  410  git diff mars.txt
+  411  git log
+  412  git checkout da9e88766485d89a04c99d3f95ef22c1dfcc3cf2 mars.txt
+  413  git status
+  414  cat mars.txxt
+  415  cat mars.txt
+  416  git diff mars.txt
+  417  git diff mars.txt
+  418  git commit -m "changing back to the older version of mars.txt"
+  419  git diff mars.txt
+  420  git log
+  421  touch mars.mp4
+  422  touch venus .mp4
+  423  ls
+  424  ls .a
+  425  ls -a
+  426  rm venus
+  427  touch venus.mp4
+  428  nano .gitignore
+  429  ls
+  430  ls -a
+  431  rm .mp4
+  432  git status
+  433  git add .
+  434  git status
+  435  git commit -m "added .gitignore which is ignoring moves"
+  436  git log
+  437  git status
+  438  git add *.daf
+  439  git status
+  440  git commit
+  441  git status
+  442  git log
+  443  git remote add origin https://github.com/babacon/test-repository.git
+  444  git remote -v
+  445  git status
+  446  git init
+  447  cwd
+  448  pwd
+  449  cd desktop
+  450  cd planets
+  451  git init
+  452  git status
+  453  git remote add origin https://github.com/babacon/test-repository.git
+  454  git push
+  455  git push origin master
+  456  git status
+  457  git diff
+  458  ls
+  459  git rm testfile.daf
+  460  git rm -f testfile.daf
+  461  git status
+  462  git add *.ast
+  463  git status
+  464  git commit
+  465  git diff
+  466  git status
+  467  git diff
+  468  ls
+  469  cat FirstTemplate_6.2.ast 
+  470  ls
+  471  nano FirstTemplate_6.2.ast 
+  472  git push origin master
+  473  git diff
+  474  git status
+  475  git add .ast
+  476  git add *.ast
+  477  git status
+  478  git commit
+  479  git push origin master
+  480  nano README.md
+  481  git add *.md
+  482  git commit
+  483  git push origin master
+  484  ls
+  485  git log
+  486  ls
+  487  git status
+  488  git pull https://github.com/fcambuli/planet.git
+  489  ls
+  490  cd..
+  491  cd ..
+  492  mkdir clonedir
+  493  cd clonedir
+  494  git pull https://github.com/fcambuli/planet.git
+  495  ls
+  496  git clone https://github.com/fcambuli/planet.git
+  497  ls
+  498  cd planet
+  499  ls
+  500  cat mars.txt
+  501  nano Babaconsfile.txt
+  502  git pull https://github.com/fcambuli/planet.git
+  503  git status
+  504  git add .txt
+  505  git add *.txt
+  506  git status
+  507  git commit
+  508  git push origin master
+  509  git pull https://github.com/fcambuli/planet.git
+  510  git push origin master
+  511  git push origin master
+  512  git pull https://github.com/fcambuli/planet.git
+  513  git pull https://github.com/fcambuli/planet.git
+  514  git push origin master
+  515  ls
+  516  cat francesco.txt
+  517  nano Babaconsfile.txt
+  518  git pull https://github.com/fcambuli/planet.git
+  519  git sttus
+  520  git status
+  521  git add *.txt
+  522  git commit
+  523  git push origin master
+  524  git diff
+  525  git log
+  526  git log head
+  527  git log --help
+  528  git log [<>]
+  529  git log [<1>]
+  530  git log [<HEad>]
+  531  git log [<Head>]
+  532  ls
+  533  git log [<Babaconsfile.txt>]
+  534  ls
+  535  git pull https://github.com/fcambuli/planet.git
+  536  ls
+  537  git pull https://github.com/fcambuli/planet.git
+  538  git diff
+  539  car francesco.txt
+  540  cat francesco.txt
+  541  git pull https://github.com/fcambuli/planet.git
+  542  nano francesco.txt
+  543  diff
+  544  git diff
+  545  add *.txt
+  546  git add *.txt
+  547  git commit
+  548  git push origin master
+  549  git pull origin master
+  550  cat francesco.txt
+  551  nano francesco.txt
+  552  nano francesco.txt
+  553  git add *.txxt
+  554  git add *.txt
+  555  git commmit
+  556  git commit
+  557  git push origin master
+  558  history
+  559  history>history.txt
